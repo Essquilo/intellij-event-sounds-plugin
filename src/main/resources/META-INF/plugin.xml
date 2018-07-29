@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>com.github.essquilo.eventsounds</id>
+    <name>  event-sounds</name>
+    <vendor email="esquilo1994@gmail.com">Ivan Prymak</vendor>
+    <idea-version since-build="173"/>
+
+    <description><![CDATA[
+      <h1>event-sounds</h1>
+      <br/>
+      <a href="https://github.com/Essquilo/intellij-event-sounds-plugin">GitHub</a>
+      <br/>
+      WIP: unfortunately, the  <a href="https://plugins.jetbrains.com/plugin/1243-event-sounds">old plugin</a> for playing sounds when run configuration starts/fails does not seem to work anymore, so here I am making new version which works.
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Initial version playing hardcoded sounds when run configuration starts/fails.
+    ]]>
+    </change-notes>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <project-components>
+        <component>
+            <implementation-class>com.github.essquilo.eventsounds.EventSoundsComponent</implementation-class>
+        </component>
+    </project-components>
+</idea-plugin>
