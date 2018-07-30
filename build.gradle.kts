@@ -17,19 +17,18 @@ repositories {
     mavenCentral()
 }
 
-
 intellij {
-    version = "IC-2018.2" //Ifor a full list of IntelliJ IDEA releases please see https://www.jetbrains.com/intellij-repository/releases
+    version = "2018.2" //for a full list of IntelliJ IDEA releases please see https://www.jetbrains.com/intellij-repository/releases
+    updateSinceUntilBuild = false
     pluginName = "event-sounds"
 }
 
 group = "com.github.essquilo"
 version = "0.1"
 
-
 dependencies {
-    implementation(kotlin("stdlib-jdk8"))
-    implementation("com.googlecode.soundlibs", "jlayer", "1.0.1-1")
+    compile(kotlin("stdlib-jdk8"))
+    compile("com.googlecode.soundlibs", "jlayer", "1.0.1-1")
 }
 
 configure<JavaPluginConvention> {
