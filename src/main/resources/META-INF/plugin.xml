@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.essquilo.eventsounds</id>
-    <name>  event-sounds</name>
+    <name>event-sounds</name>
     <vendor email="esquilo1994@gmail.com">Ivan Prymak</vendor>
     <idea-version since-build="173"/>
 
@@ -13,7 +13,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      Initial version playing hardcoded sounds when run configuration starts/fails.
+      Naming fix.
     ]]>
     </change-notes>
 

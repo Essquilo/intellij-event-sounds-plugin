@@ -24,7 +24,7 @@ intellij {
 }
 
 group = "com.github.essquilo"
-version = "0.1"
+version = "0.1.1"
 
 dependencies {
     compile(kotlin("stdlib-jdk8"))
